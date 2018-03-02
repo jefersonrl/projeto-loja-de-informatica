@@ -6,30 +6,30 @@ Projeto prático desenvolvido para o técnico de informática referente ao compo
 
 #### JAVA | SQL | MYVIN | GITHUB
 
-#### INTRODUÇÃO AO GITHUB
+#### 1. INTRODUÇÃO AO GITHUB
 
-#### Criando repositório (MS-WINDOWS)
+#### 1.1 Criando repositório (MS-WINDOWS)
 
-#### Criando diretorio
+#### 1.2 Criando diretorio
 md projetos
 
-#### Acessando diretorio
+#### 1.3 Acessando diretorio
 cd projetos
 
-#### Inicializando GITHUB
+#### 1.4 Inicializando GITHUB
 git init
 
-#### Verificando o status do git
+#### 1.5 Verificando o status do git
 git status
 
-#### Adicionando o projeto para upload
+#### 1.6 Adicionando o projeto para upload
 git add arquivo.txt
 
-#### Commitando o projeto para upload com descrição
+#### 1.7 Commitando o projeto para upload com descrição
 git commit -m "primeiro upload"
 
-#### Adicionando o git ao repositório remoto
+#### 1.8 Adicionando o git ao repositório remoto
 git remote add https://github.com/jefersonrl/ProjetoLojaDeInformatica.git
 
-#### Enviando os arquivos para o repositório
+#### 1.9 Enviando os arquivos para o repositório
 git push -u origin master
