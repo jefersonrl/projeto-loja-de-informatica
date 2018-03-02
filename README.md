@@ -10,26 +10,26 @@ Projeto prático desenvolvido para o técnico de informática referente ao compo
 
 #### Criando repositório (MS-WINDOWS)
 
-#### CRIANDO DIRETÓRIO
+#### Criando diretorio
 md projetos
 
-#### ACESSANDO O DIRETÓRIO
+#### Acessando diretorio
 cd projetos
 
-#### INCIALIZANDO GITHUB
+#### Inicializando GITHUB
 git init
 
-#### VERIFICANDO O STATUS DO GITHUB
+#### Verificando o status do git
 git status
 
-#### ADICIONANDO PROJETO PARA UPLOAD
+#### Adicionando o projeto para upload
 git add arquivo.txt
 
-#### COMMITANDO O PROJETO PARA UPLOAD COM A DESCRIÇÃO
+#### Commitando o projeto para upload com descrição
 git commit -m "primeiro upload"
 
-#### ADCIONANDO O GIT AO REPOSITÓRIO WEB
+#### Adicionando o git ao repositório remoto
 git remote add https://github.com/jefersonrl/ProjetoLojaDeInformatica.git
 
-#### ENVIANDO O(S) ARQUIVO(S) PARA O REPOSITÓRIO
+#### Enviando os arquivos para o repositório
 git push -u origin master
