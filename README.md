@@ -1,4 +1,4 @@
-<p align="center"><img width="10%" src="imgs/github.jpg" /><img width="14%" src="imgs/logo_eclipse.jpg" /></p>
+<p align="center"><img width="10%" src="imgs/github.jpg" /><img width="14%" src="imgs/logo_eclipse.jpg" /><img width="20%" src="imgs/maven.png" /></p>
 
 #Projeto Loja de Informática
 
