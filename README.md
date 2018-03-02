@@ -1,4 +1,4 @@
-<p align="center"><img width="40%" src="imgs/logo.jpg" /></p>
+<p align="center"><img width="40%" src="imgs/github.jpg" /></p>
 
 #Projeto Loja de Informática
 
