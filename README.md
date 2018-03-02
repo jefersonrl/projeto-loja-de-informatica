@@ -1,34 +1,34 @@
 <p align="center"><img width="10%" src="imgs/github.jpg" /><img width="14%" src="imgs/logo_eclipse.jpg" /><img width="25%" src="imgs/maven.png" /></p>
 
-#Projeto Loja de Informática
+## Projeto Loja de Informática
 
 Projeto prático desenvolvido para o técnico de informática referente ao componente curricular de programação de computadores II.
 
-# JAVA # SQL # MYVIN # GITHUB
+### JAVA ### SQL ### MYVIN ### GITHUB
 
-# INTRODUÇÃO AO GITHUB
+### INTRODUÇÃO AO GITHUB
 
-## Criando repositório (MS-WINDOWS)
+### Criando repositório (MS-WINDOWS)
 
-## CRIANDO DIRETÓRIO
+### CRIANDO DIRETÓRIO
 md projetos
 
-## ACESSANDO O DIRETÓRIO
+### ACESSANDO O DIRETÓRIO
 cd projetos
 
-## INCIALIZANDO GITHUB
+### INCIALIZANDO GITHUB
 git init
 
-## VERIFICANDO O STATUS DO GITHUB
+### VERIFICANDO O STATUS DO GITHUB
 git status
 
-## ADICIONANDO PROJETO PARA UPLOAD
+### ADICIONANDO PROJETO PARA UPLOAD
 git add arquivo.txt
 
-## COMMITANDO O PROJETO PARA UPLOAD COM A DESCRIÇÃO
+### COMMITANDO O PROJETO PARA UPLOAD COM A DESCRIÇÃO
 git commit -m "primeiro upload"
 
-## ADCIONANDO O GIT AO REPOSITÓRIO WEB
+### ADCIONANDO O GIT AO REPOSITÓRIO WEB
 git remote add https://github.com/jefersonrl/ProjetoLojaDeInformatica.git
 
 ## ENVIANDO O(S) ARQUIVO(S) PARA O REPOSITÓRIO
