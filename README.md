@@ -1,3 +1,5 @@
+<p align="center"><img width="40%" src="imgs/logo.jpg" /></p>
+
 #Projeto Loja de Informática
 
 Projeto prático desenvolvido para o técnico de informática referente ao componente curricular de programação de computadores II.
