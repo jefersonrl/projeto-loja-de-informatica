@@ -6,7 +6,7 @@ Projeto prático desenvolvido para o técnico de informática referente ao compo
 
 #### JAVA | SQL | MYVIN | GITHUB
 
-#### 1. INTRODUÇÃO AO GITHUB
+#### 1. INTRODUÇÃO AO GITHUB (PASSO-A-PASSO)
 
 ##### 1.1 Criando repositório (MS-WINDOWS)
 
@@ -34,4 +34,5 @@ git remote origin add https://github.com/jefersonrl/ProjetoLojaDeInformatica.git
 ##### 1.9 Enviando os arquivos para o repositório
 git push -u origin master (origin name branch)
 
-
+### 2. Clonando um repositório go GitHub
+git clone https://github.com/jefersonrl/ProjetoLojaDeInforma.git
