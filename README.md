@@ -11,7 +11,7 @@ Projeto prático desenvolvido para o técnico de informática referente ao compo
 #### 1.1 Criando repositório (MS-WINDOWS)
 
 #### 1.2 Criando diretorio
-md projetos
+(M. Windows) md projetos (GNU Linux) mkdir projetos
 
 #### 1.3 Acessando diretorio
 cd projetos
@@ -32,4 +32,5 @@ git commit -m "primeiro upload"
 git remote add https://github.com/jefersonrl/ProjetoLojaDeInformatica.git
 
 #### 1.9 Enviando os arquivos para o repositório
-git push -u origin master
+git push -u origin master (origin name branch)
+
