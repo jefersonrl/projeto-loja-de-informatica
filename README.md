@@ -34,5 +34,5 @@ git remote origin add https://github.com/jefersonrl/ProjetoLojaDeInformatica.git
 ##### 1.9 Enviando os arquivos para o repositório
 git push -u origin master (origin name branch)
 
-### 2. Clonando um repositório go GitHub
+### 2. Clonando um repositório do GitHub
 git clone https://github.com/jefersonrl/ProjetoLojaDeInforma.git
