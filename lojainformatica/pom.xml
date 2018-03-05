@@ -1,0 +1,81 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.edu.etec.lojainformatica</groupId>
+  <artifactId>lojainformatica</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>lojainformatica</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+    <dependency>
+      <groupId>com.microsoft.sqlserver</groupId>
+      <artifactId>mssql-jdbc</artifactId>
+      <version>6.1.0.jre8</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.6</version>
+    </dependency>    
+  </dependencies>
+
+    <build>
+    <plugins>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.0.2</version>
+	<configuration>
+	  <archive>
+	    <manifest>
+	      <addClasspath>true</addClasspath>
+              <mainClass>br.edu.etec.lojainformatica.App</mainClass>
+	      <classpathPrefix>${project.build.outputDirectory}.lib</classpathPrefix>
+	    </manifest>
+	  </archive>
+        </configuration>                                
+      </plugin>
+
+      <plugin>
+	<artifactId>maven-dependency-plugin</artifactId>
+	<executions>
+	  <execution>
+	    <phase>package</phase>
+	    <goals>
+	      <goal>copy-dependencies</goal>
+	    </goals>
+	    <configuration>
+	      <outputDirectory>${project.build.outputDirectory}.lib</outputDirectory>
+	    </configuration>
+	  </execution>
+	</executions>
+      </plugin>
+
+      <plugin>
+	<groupId>org.codehaus.mojo</groupId>
+	<artifactId>exec-maven-plugin</artifactId>
+	<version>1.5.0</version>
+	<executions>
+	  <execution>
+	    <goals>
+	      <goal>java</goal>
+	    </goals>
+	  </execution>
+	</executions>
+	<configuration>
+	  <mainClass>br.edu.etec.lojainformatica.App</mainClass>
+	</configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
