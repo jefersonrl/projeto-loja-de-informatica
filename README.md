@@ -29,7 +29,7 @@ git add arquivo.txt
 git commit -m "primeiro upload"
 
 #### 1.8 Adicionando o git ao repositório remoto
-git remote add https://github.com/jefersonrl/ProjetoLojaDeInformatica.git
+git remote origin add https://github.com/jefersonrl/ProjetoLojaDeInformatica.git
 
 #### 1.9 Enviando os arquivos para o repositório
 git push -u origin master (origin name branch)
